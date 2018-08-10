@@ -1,80 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
-  <test name="Test1(failed)">
+  <test name="test3(failed)">
     <classes>
-      <class name="test1.com.Test101">
-        <methods>
-          <include name="exec"/>
-        </methods>
-      </class> <!-- test1.com.Test101 -->
       <class name="test1.com.Test789">
         <methods>
           <include name="exec"/>
-          <include name="EndTest"/>
           <include name="test"/>
         </methods>
       </class> <!-- test1.com.Test789 -->
-      <class name="test1.com.Test910">
-        <methods>
-          <include name="exec"/>
-        </methods>
-      </class> <!-- test1.com.Test910 -->
       <class name="test1.com.Test_Browser">
         <methods>
-          <include name="close_Browser"/>
-        </methods>
-      </class> <!-- test1.com.Test_Browser -->
-    </classes>
-  </test> <!-- Test1(failed) -->
-  <test name="test2(failed)">
-    <classes>
-      <class name="test1.com.Test101">
-        <methods>
-          <include name="exec"/>
-        </methods>
-      </class> <!-- test1.com.Test101 -->
-      <class name="test1.com.Test789">
-        <methods>
-          <include name="exec"/>
-          <include name="EndTest"/>
-        </methods>
-      </class> <!-- test1.com.Test789 -->
-      <class name="test1.com.Test910">
-        <methods>
-          <include name="exec"/>
-          <include name="sts"/>
-        </methods>
-      </class> <!-- test1.com.Test910 -->
-      <class name="test1.com.Test_Browser">
-        <methods>
-          <include name="close_Browser"/>
-        </methods>
-      </class> <!-- test1.com.Test_Browser -->
-    </classes>
-  </test> <!-- test2(failed) -->
-  <test name="test3(failed)">
-    <classes>
-      <class name="test1.com.Test101">
-        <methods>
-          <include name="sts"/>
-          <include name="exec"/>
-        </methods>
-      </class> <!-- test1.com.Test101 -->
-      <class name="test1.com.Test789">
-        <methods>
-          <include name="exec"/>
-          <include name="EndTest"/>
-        </methods>
-      </class> <!-- test1.com.Test789 -->
-      <class name="test1.com.Test910">
-        <methods>
-          <include name="exec"/>
-        </methods>
-      </class> <!-- test1.com.Test910 -->
-      <class name="test1.com.Test_Browser">
-        <methods>
-          <include name="close_Browser"/>
+          <include name="launch"/>
         </methods>
       </class> <!-- test1.com.Test_Browser -->
     </classes>
