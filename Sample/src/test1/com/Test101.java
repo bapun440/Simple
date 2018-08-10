@@ -16,7 +16,7 @@ public class Test101 {
 	
 	
 	//@Parameters({ "browser" })
-	@Test
+	@Test(priority = 3)
 	public void sts() throws Throwable {
 		WebDriver driver=Test_Browser.driver;
 		System.out.println(driver.getTitle());

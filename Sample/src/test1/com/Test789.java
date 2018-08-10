@@ -21,7 +21,7 @@ public class Test789 {
 	}
 	
 	//@Parameters({ "browser" })
-	@Test
+	@Test(priority = 1)
 	public void test() throws Throwable {
 		WebDriver driver=Test_Browser.driver;
 		String extentReport="D:\\Ext\\ext.html";

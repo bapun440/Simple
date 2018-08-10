@@ -11,7 +11,7 @@ import org.testng.annotations.Test;
 public class Test_Browser {
 	public static WebDriver driver;
 	
-	@Test
+	@Test(priority = 0)
 	public void launch() {
 		System.setProperty("webdriver.chrome.driver", 
 				"D:\\Test_Practice\\Sample\\resources\\chromedriver.exe");
