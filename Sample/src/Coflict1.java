@@ -8,7 +8,7 @@ class Eampl121 {
 		   public static void main(String args[])throws ArithmeticException{
 			   Eampl121 obj=new Eampl121();  
 		     obj.method();  
-		    System.out.println("sam");
+		    System.out.println("sam"+"hari");
 		    System.out.println("ptr");
 		    System.out.println("End Of Program");  
 		  }  
