@@ -3,7 +3,7 @@ package File_Io;
 import java.io.File;
 import java.io.IOException;
 
-public class Chech_Hidden {
+public class Check_Hidden {
 	public static void main(String[] args) throws IOException, SecurityException
     {	
     	// Provide the complete file path here

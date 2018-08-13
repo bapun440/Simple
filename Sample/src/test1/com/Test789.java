@@ -29,13 +29,14 @@ public class Test789 {
 		extent= new ExtentReports(extentReport, true);
 		test=extent.startTest("My first Test");
 	
-		/*	ChromeOptions options = new ChromeOptions();
+		/*ChromeOptions options = new ChromeOptions();
 		options.addArguments("headless");
         driver=new ChromeDriver(options);*/
 		/*ChromeOptions options = new ChromeOptions();
         options.addArguments("headless");
         options.addArguments("window-size=1200x600");
         WebDriver driver = new ChromeDriver(options);*/
+		
 		System.out.println(driver.getTitle());
 		String expected="Google";
 		String actual=driver.getTitle();
