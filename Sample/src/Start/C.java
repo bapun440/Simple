@@ -1,6 +1,6 @@
 package Start;
 
-import Com.Ten;
+import Cox.Ten;
 
 public class C {
 

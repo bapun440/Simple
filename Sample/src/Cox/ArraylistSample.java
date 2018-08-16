@@ -1,4 +1,4 @@
-package Com;
+package Cox;
 
 import java.awt.AWTException;
 import java.awt.Robot;

@@ -1,4 +1,4 @@
-package Com;
+package Cox;
 
 class Parent{
    int x=10;
