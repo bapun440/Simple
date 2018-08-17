@@ -23,7 +23,7 @@ public class Java_S {
 			for (String name : engNames)
 			{
 				System.out.printf("\tEngine Alias: %s\n", name);
-				System.out.println();
+		/*		System.out.println();*/
 			}
 			System.out.printf("\tLanguage: %s (%s)\n", langName, langVersion);
 		}
