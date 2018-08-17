@@ -9,7 +9,7 @@ public class Java_S {
 		ScriptEngine engine = new ScriptEngineManager().getEngineByName("nashorn");
 		engine.eval("print('Hello World!');");
 
-		/*ScriptEngineManager mgr = new ScriptEngineManager();
+		ScriptEngineManager mgr = new ScriptEngineManager();
 		List<ScriptEngineFactory> factories = mgr.getEngineFactories();
 		for (ScriptEngineFactory factory : factories)
 		{
@@ -25,6 +25,6 @@ public class Java_S {
 				System.out.printf("\tEngine Alias: %s\n", name);
 			}
 			System.out.printf("\tLanguage: %s (%s)\n", langName, langVersion);
-		}*/
+		}
 	}
 }
