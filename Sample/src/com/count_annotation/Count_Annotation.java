@@ -20,6 +20,7 @@ public class Count_Annotation implements IMethodInterceptor {
 				result.add(method);
 				count++;
 			}
+			
 		}
 		System.out.println("Number of Test Method Present:"+count);
 		System.out.println();
