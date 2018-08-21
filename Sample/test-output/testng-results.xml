@@ -1,17 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="3222" started-at="2018-08-10T09:09:46Z" finished-at="2018-08-10T09:09:49Z">
+  <suite name="Suite" duration-ms="67" started-at="2018-08-21T13:10:42Z" finished-at="2018-08-21T13:10:42Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="3222" started-at="2018-08-10T09:09:46Z" finished-at="2018-08-10T09:09:49Z">
-      <class name="Drp_1">
-        <test-method status="PASS" signature="htm()[pri:0, instance:Drp_1@4520ebad]" name="htm" duration-ms="3192" started-at="2018-08-10T14:39:46Z" finished-at="2018-08-10T14:39:49Z">
+    <test name="Test" duration-ms="67" started-at="2018-08-21T13:10:42Z" finished-at="2018-08-21T13:10:42Z">
+      <class name="com.count_annotation.Test4">
+        <test-method status="PASS" signature="t1()[pri:1, instance:com.count_annotation.Test4@9629756]" name="t1" duration-ms="12" started-at="2018-08-21T18:40:42Z" finished-at="2018-08-21T18:40:42Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- htm -->
-      </class> <!-- Drp_1 -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+        </test-method> <!-- t1 -->
+        <test-method status="PASS" signature="t2()[pri:2, instance:com.count_annotation.Test4@9629756]" name="t2" duration-ms="7" started-at="2018-08-21T18:40:42Z" finished-at="2018-08-21T18:40:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- t2 -->
+        <test-method status="PASS" signature="t3()[pri:3, instance:com.count_annotation.Test4@9629756]" name="t3" duration-ms="2" started-at="2018-08-21T18:40:42Z" finished-at="2018-08-21T18:40:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- t3 -->
+        <test-method status="PASS" signature="t4()[pri:4, instance:com.count_annotation.Test4@9629756]" name="t4" duration-ms="3" started-at="2018-08-21T18:40:42Z" finished-at="2018-08-21T18:40:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- t4 -->
+        <test-method status="PASS" signature="t5()[pri:5, instance:com.count_annotation.Test4@9629756]" name="t5" duration-ms="1" started-at="2018-08-21T18:40:42Z" finished-at="2018-08-21T18:40:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- t5 -->
+      </class> <!-- com.count_annotation.Test4 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>
