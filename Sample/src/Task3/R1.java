@@ -7,7 +7,6 @@ public class R1 {
 	
 	public static String change_value() {
 		String naa= new String("new String");
-		//System.out.println(naa);
 		return naa;
 	}
 	
