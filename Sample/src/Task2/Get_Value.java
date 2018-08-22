@@ -21,9 +21,9 @@ public class Get_Value {
 	System.out.println(fieldValue); // -> A
 	}
 	
-	@AfterTest
+	/*@AfterTest
 	public void a1() throws Throwable, IllegalAccessException {
 	field.set(null, "B");
 	System.out.println(Task2.My_Class.getStaticField()); // -> B
-	}
+	}*/
 }
