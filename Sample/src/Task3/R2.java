@@ -5,12 +5,15 @@ import java.lang.reflect.Modifier;
 import java.util.ArrayList;
 import java.util.List;
 
+import org.testng.annotations.BeforeMethod;
+
 
 public class R2 {
 	
-	public static void main(String[] args) throws NoSuchFieldException, Throwable {
+	@BeforeMethod
+	public static void retrieve_value() throws Throwable, Throwable {
 		List<Field> privateFields = new ArrayList<>();
-		Field[] allFields = R1.class.getDeclaredFields();
+		Field[] allFields = R3.class.getDeclaredFields();
 		//Field[] allFields.getAllFields(R1.class);
 		for (Field f1 : allFields) {
 			if (Modifier.isPrivate(f1.getModifiers())) {
@@ -20,7 +23,7 @@ public class R2 {
 		String result="";
 		for(Field f2: privateFields){
 			String fieldName=f2.getName();
-			Field field = R1.class.getDeclaredField(fieldName);
+			Field field = R3.class.getDeclaredField(fieldName);
 			Class<?> t = field.getType();
 			field.setAccessible(true);
 			if(field.isAccessible() && t == int.class){
