@@ -16,6 +16,7 @@ public class Test4 extends Count_Annotation {
 		System.out.println(1);
 	}
 
+	
 	@Test(priority=2)
 	public void t2() {
 		System.out.println(2);
